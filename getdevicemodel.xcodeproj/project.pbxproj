@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2139AEB51828FE7A00B7AC0F /* getdevicemodel.lcidl in Sources */ = {isa = PBXBuildFile; fileRef = 2139AEB41828FE7A00B7AC0F /* getdevicemodel.lcidl */; };
+		2139AEB71828FE7A00B7AC0F /* getdevicemodel.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2139AEB61828FE7A00B7AC0F /* getdevicemodel.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2139AEB01828FE7A00B7AC0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2139AEA11828FE7A00B7AC0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2139AEA91828FE7A00B7AC0F;
+			remoteInfo = getdevicemodel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2139AEAA1828FE7A00B7AC0F /* libgetdevicemodel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libgetdevicemodel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2139AEAE1828FE7A00B7AC0F /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2139AEB31828FE7A00B7AC0F /* getdevicemodel.ios */ = {isa = PBXFileReference; lastKnownFileType = text; path = getdevicemodel.ios; sourceTree = "<group>"; };
+		2139AEB41828FE7A00B7AC0F /* getdevicemodel.lcidl */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.livecode.idl; path = getdevicemodel.lcidl; sourceTree = "<group>"; };
+		2139AEB61828FE7A00B7AC0F /* getdevicemodel.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = getdevicemodel.mm; sourceTree = "<group>"; };
+		2139AEB81828FE7A00B7AC0F /* getdevicemodel.livecode */ = {isa = PBXFileReference; lastKnownFileType = file; path = getdevicemodel.livecode; sourceTree = "<group>"; };
+		2139AEB91828FE7A00B7AC0F /* test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "test-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2139AEA71828FE7A00B7AC0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2139AE9F1828FE7A00B7AC0F = {
+			isa = PBXGroup;
+			children = (
+				2139AEB21828FE7A00B7AC0F /* getdevicemodel */,
+				2139AEAB1828FE7A00B7AC0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2139AEAB1828FE7A00B7AC0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2139AEAA1828FE7A00B7AC0F /* libgetdevicemodel.a */,
+				2139AEAE1828FE7A00B7AC0F /* test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2139AEB21828FE7A00B7AC0F /* getdevicemodel */ = {
+			isa = PBXGroup;
+			children = (
+				2139AEB31828FE7A00B7AC0F /* getdevicemodel.ios */,
+				2139AEB41828FE7A00B7AC0F /* getdevicemodel.lcidl */,
+				2139AEB61828FE7A00B7AC0F /* getdevicemodel.mm */,
+				2139AEB81828FE7A00B7AC0F /* getdevicemodel.livecode */,
+				2139AEB91828FE7A00B7AC0F /* test-Info.plist */,
+			);
+			path = getdevicemodel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2139AEA91828FE7A00B7AC0F /* getdevicemodel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2139AEBC1828FE7A00B7AC0F /* Build configuration list for PBXNativeTarget "getdevicemodel" */;
+			buildPhases = (
+				2139AEA61828FE7A00B7AC0F /* Sources */,
+				2139AEA71828FE7A00B7AC0F /* Frameworks */,
+				2139AEA81828FE7A00B7AC0F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = getdevicemodel;
+			productName = getdevicemodel;
+			productReference = 2139AEAA1828FE7A00B7AC0F /* libgetdevicemodel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2139AEAD1828FE7A00B7AC0F /* test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2139AEBF1828FE7A00B7AC0F /* Build configuration list for PBXNativeTarget "test" */;
+			buildPhases = (
+				2139AEAC1828FE7A00B7AC0F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2139AEB11828FE7A00B7AC0F /* PBXTargetDependency */,
+			);
+			name = test;
+			productName = test;
+			productReference = 2139AEAE1828FE7A00B7AC0F /* test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2139AEA11828FE7A00B7AC0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = 2139AEA41828FE7A00B7AC0F /* Build configuration list for PBXProject "getdevicemodel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2139AE9F1828FE7A00B7AC0F;
+			productRefGroup = 2139AEAB1828FE7A00B7AC0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2139AEA91828FE7A00B7AC0F /* getdevicemodel */,
+				2139AEAD1828FE7A00B7AC0F /* test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2139AEA81828FE7A00B7AC0F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "sh \"$LIVECODE_SDKROOT/tools/lclink.sh\"";
+		};
+		2139AEAC1828FE7A00B7AC0F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "sh \"$LIVECODE_SDKROOT/tools/lclinktest.sh\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2139AEA61828FE7A00B7AC0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2139AEB51828FE7A00B7AC0F /* getdevicemodel.lcidl in Sources */,
+				2139AEB71828FE7A00B7AC0F /* getdevicemodel.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2139AEB11828FE7A00B7AC0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2139AEA91828FE7A00B7AC0F /* getdevicemodel */;
+			targetProxy = 2139AEB01828FE7A00B7AC0F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2139AEBA1828FE7A00B7AC0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = "\"$(LIVECODE_SDKROOT)/headers\"";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LIVECODE_SDKROOT = "$(USER_LIBRARY_DIR)/Application Support/RunRev/Components/LiveCodeSDK";
+				LIVECODE_TEST_EXTERNAL = getdevicemodel;
+				LIVECODE_TEST_STACK = "$(SRCROOT)/getdevicemodel/getdevicemodel.livecode";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2139AEBB1828FE7A00B7AC0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				HEADER_SEARCH_PATHS = "\"$(LIVECODE_SDKROOT)/headers\"";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LIVECODE_SDKROOT = "$(USER_LIBRARY_DIR)/Application Support/RunRev/Components/LiveCodeSDK";
+				LIVECODE_TEST_EXTERNAL = getdevicemodel;
+				LIVECODE_TEST_STACK = "$(SRCROOT)/getdevicemodel/getdevicemodel.livecode";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2139AEBD1828FE7A00B7AC0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				LIVECODE_DEP_FILE = "$(SRCROOT)/getdevicemodel/getdevicemodel.ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2139AEBE1828FE7A00B7AC0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				LIVECODE_DEP_FILE = "$(SRCROOT)/getdevicemodel/getdevicemodel.ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2139AEC01828FE7A00B7AC0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "$(SRCROOT)/getdevicemodel/test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2139AEC11828FE7A00B7AC0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "$(SRCROOT)/getdevicemodel/test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2139AEA41828FE7A00B7AC0F /* Build configuration list for PBXProject "getdevicemodel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2139AEBA1828FE7A00B7AC0F /* Debug */,
+				2139AEBB1828FE7A00B7AC0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2139AEBC1828FE7A00B7AC0F /* Build configuration list for PBXNativeTarget "getdevicemodel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2139AEBD1828FE7A00B7AC0F /* Debug */,
+				2139AEBE1828FE7A00B7AC0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2139AEBF1828FE7A00B7AC0F /* Build configuration list for PBXNativeTarget "test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2139AEC01828FE7A00B7AC0F /* Debug */,
+				2139AEC11828FE7A00B7AC0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2139AEA11828FE7A00B7AC0F /* Project object */;
+}

@@ -1,0 +1,16 @@
+//
+//  getdevicemodel.lcidlc
+//  getdevicemodel
+//
+//  Created by Nakia Brewer on 5/11/13.
+//  Copyright 2013 Nakia Brewer. All rights reserved.
+//
+
+// The name of the external (note external name must be all lowercase!)
+external getdevicemodel
+
+use c++-naming
+use objc-objects
+
+command getDeviceModel
+    return objc-string
